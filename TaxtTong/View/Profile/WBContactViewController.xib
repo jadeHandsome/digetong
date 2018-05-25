@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBContactViewController" customModule="TaxtTong" customModuleProvider="target">
+            <connections>
+                <outlet property="txtView" destination="Iui-o1-3u9" id="y67-gj-r8K"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iui-o1-3u9">
+                    <rect key="frame" x="8" y="80" width="359" height="587"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <string key="text">公司地址：广州高新技术产业开发区科学大道97号1507房                                      
+联系邮箱：tongyi@digetong.com
+商务合作联系邮箱：sw@digetong.com
+公司名称：广州统邑信息科技有限公司
+QQ交流群:31444035</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Iui-o1-3u9" secondAttribute="bottom" id="Gr4-vX-V92"/>
+                <constraint firstItem="Iui-o1-3u9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="HiB-S1-cZd"/>
+                <constraint firstItem="Iui-o1-3u9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Og4-5U-aua"/>
+                <constraint firstAttribute="trailing" secondItem="Iui-o1-3u9" secondAttribute="trailing" constant="8" id="dNK-0m-f1k"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
